@@ -145,7 +145,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 EMAIL_HOST = "smtp.163.com"
 EMAIL_POST =25
 EMAIL_HOST_USER = 'hnx1991@163.com'
-EMAIL_HOST_PASSWORD = '19910729h'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_HOST_TLS = False
 EMAIL_FROM = 'hnx1991@163.com'  #与EMAIL_HOST_USER 相同    指明发件人
 
@@ -155,4 +155,4 @@ EMAIL_FROM = 'hnx1991@163.com'  #与EMAIL_HOST_USER 相同    指明发件人
 #
 #     'SHOW_FIRST_PAGE_WHEN_INVALID': True,
 # }
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
