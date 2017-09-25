@@ -25,9 +25,9 @@ sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
 SECRET_KEY = 'a$ok!%q979l@h-%_o5!+i^!lz(0e(enqxb^!19)54#$wrl3%i)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','localhost','.good-hunter.com']
 AUTHENTICATION_BACKENDS=(
   'users.views.CustomBackend',
 )
